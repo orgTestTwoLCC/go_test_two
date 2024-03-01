@@ -1,15 +1,11 @@
-package main
-
 import (
 	"fmt"
 
 	"github.com/orgTestOneLCC/dep_repo"
 )
 
-func main() {
+func (g Greeting) SayHello2() {
 	myGreeting := main_one.Greeting{}
 
 	myGreeting.SayHello()
-
-	fmt.Println("test v0.03")
 }
