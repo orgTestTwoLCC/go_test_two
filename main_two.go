@@ -1,8 +1,4 @@
-import (
-	"fmt"
-
-	"github.com/orgTestOneLCC/dep_repo"
-)
+package main
 
 func (g Greeting) SayHello2() {
 	myGreeting := main_one.Greeting{}
